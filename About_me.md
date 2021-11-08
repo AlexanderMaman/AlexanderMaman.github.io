@@ -1,6 +1,6 @@
 ## Alexander Maman
-Schragi Schwartz lab, Molecular genetics department, Weizmann institute of science
-[link](http://www.weizmann.ac.il/molgen/Schwartz/)
+
+[Schragi Schwartz lab,](http://www.weizmann.ac.il/molgen/Schwartz/), Molecular genetics department, Weizmann institute of science
 alex.a.maman@gmail.com
 +972546672252
 

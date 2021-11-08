@@ -14,4 +14,4 @@
 
 ##  HTML pages
 
-toadd
+a sample page with and interactive [plot](https://alexandermaman.github.io/MCA1/"

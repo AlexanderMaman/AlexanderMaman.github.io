@@ -8,6 +8,7 @@ Weizmann IT powerpoint : [Link](https://www.weizmann.ac.il/WIT/sites/WIT/files/u
 WEXAC’s RTM (real-time monitoring of jobs and server loads): [Link](http://rtm.wexac.weizmann.ac.il/)
 
 ### Common commands
+```markdown
 -q "queue_name ..." which queue to submit the job. The wexac cluster has several queues where jobs can wait to be allocated according to the queue priority. We have our own queue, "schwartz" with 152 available slots; our current priority is very high, perhaps due to us barely using the service. Other general slots are "new-short" (jobs shorter then 24hrs) ,"molgen-q", "molgen-short".
 to see queue details, either use the "bqueues" command or visit [link](https://rtm.wexac.weizmann.ac.il/cacti/plugins/grid/grid_bqueues.php)
 -n min_tasks[,max_tasks] number of tasks the job is allowed to launch, and the number of slots that will be reserved for this task. For when you want to submit a job with multiple parallel tasks that require multiple CPUs. (note that your requested memory will be for each slot, so submitting -n 10  -R 'rusage[mem=128]  will result in 1280 reserved memory)
